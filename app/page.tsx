@@ -1,9 +1,14 @@
-import Image from "next/image";
+import { Metadata } from "next";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Home",
+  description: "This is a main page"
+}
+
+export default function Page() {
   return (
-    <>
-    test
-    </>
+    <main className="min-h-[150vh] bg-slate-200">
+      test
+      </main>
   );
 }
