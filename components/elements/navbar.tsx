@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center gap-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/navbar-company-dark.png"
+                src="/logo-dark.png"
                 width={100}
                 height={100}
                 alt="logo"
