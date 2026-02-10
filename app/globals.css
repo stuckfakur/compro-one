@@ -127,4 +127,40 @@
   .container {
     @apply container mx-auto;
   }
+
+  h1 {
+    @apply text-3xl font-bold tracking-tight;
+  }
+  h2 {
+    @apply text-2xl font-bold tracking-tight;
+  }
+  h3 {
+    @apply text-xl font-bold tracking-tight;
+  }
+  h4 {
+    @apply text-lg font-bold tracking-tight;
+  }
+  h5 {
+    @apply text-base font-bold tracking-tight;
+  }
+  h6 {
+    @apply text-sm font-bold tracking-tight;
+  }
+  p {
+    @apply text-base;
+  }
+
+
+  .cta-button {
+    @apply px-8 py-2 text-lg rounded-md cursor-pointer flex items-center justify-center gap-4 hover:gap-8 duration-300;
+  }
+
+}
+
+.triagle-lr {
+  width: 0; height: 0;
+  border-style: solid;
+  border-width: 30vh 0px 40vh 100vw;
+  border-color: transparent transparent transparent #25CC0F;
+  transform: rotate(0deg);
 }
