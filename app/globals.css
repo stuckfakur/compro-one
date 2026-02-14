@@ -152,7 +152,7 @@
 
 
   .cta-button {
-    @apply px-8 py-2 text-lg rounded-md cursor-pointer flex items-center justify-center gap-4 hover:gap-8 duration-300;
+    @apply px-8 py-4 text-lg rounded-sm cursor-pointer flex items-center justify-center gap-4 hover:gap-8 duration-300;
   }
 
 }

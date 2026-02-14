@@ -1,3 +1,4 @@
+import LandingBenefit from "@/components/elements/landing-benefit";
 import LandingHero from "@/components/elements/landing-hero";
 import { Metadata } from "next";
 
@@ -8,8 +9,9 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="min-h-[150vh] bg-slate-200">
+    <main className="min-h-[150vh] bg-white">
       <LandingHero />
+      <LandingBenefit />
     </main>
   );
 }

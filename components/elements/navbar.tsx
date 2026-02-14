@@ -25,7 +25,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center gap-2 mr-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/logo-dark.png"
+                src="/assets/logo-dark.png"
                 width={100}
                 height={100}
                 alt="logo"

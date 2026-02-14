@@ -126,7 +126,7 @@ export default function Navlink() {
             <div className="group relative w-full h-18 overflow-hidden">
               <img
                 className="object-cover group-hover:cursor-pointer group-hover:scale-140 transition-all duration-300"
-                src="/cta-layer.jpg"
+                src="/assets/cta-layer.jpg"
                 alt="cta"
               />
               <div className="group-hover:cursor-pointer absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-2 text-white">

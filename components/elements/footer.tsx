@@ -77,7 +77,7 @@ export default function Footer() {
       <div className="grid grid-cols-2 gap-2 px-4 py-6">
         <div className="flex flex-col justify-between gap-4">
           <div className="max-w-[400px]">
-            <img src="/logo-dark.png" alt="logo" className="h-12" />
+            <img src="/assets/logo-dark.png" alt="logo" className="h-12" />
             <p>
               Reinventing the way you create websites, say hi to the most
               powerful WordPress theme available on the market, made by Me.
@@ -87,12 +87,12 @@ export default function Footer() {
           <div className="flex items-center gap-8">
             <img
               className="w-18"
-              src="/logo-footer-1.png"
+              src="/assets/logo-footer-1.png"
               alt="footer-logo-1"
             />
             <img
               className="w-18"
-              src="/logo-footer-2.png"
+              src="/assets/logo-footer-2.png"
               alt="footer-logo-2"
             />
             <Button variant="secondary">
