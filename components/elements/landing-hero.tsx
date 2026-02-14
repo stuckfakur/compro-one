@@ -3,13 +3,13 @@ import { Button } from "../ui/button";
 
 export default function LandingHero() {
   return (
-    <section className="overflow-hidden relative w-full h-[80vh] bg-[linear-gradient(to_right_bottom,rgb(37,204,15)_0%,rgb(255,255,255)_100%)]">
+    <section className="overflow-hidden relative w-full h-[80vh] bg-[linear-gradient(to_right_bottom,rgb(37,204,15)_0%,rgb(255,255,255)_50%)]">
       <div className="z-[1-] triagle-lr absolute top-1/2 left-0 transform -translate-y-1/2 w-full"></div>
 
       <div className="h-full container relative">
         <img
           className="w-[40vw] absolute top-1/2 right-6 transform -translate-y-1/2 rounded-lg hover:scale-[110%] duration-300"
-          src="/img-intro.png"
+          src="/assets/img-intro.png"
           alt="intro"
         />
         <div className="absolute top-1/2 left-0 transform -translate-y-1/2 z-1 md:max-w-[33vw] space-y-4">
