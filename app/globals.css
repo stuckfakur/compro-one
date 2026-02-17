@@ -154,6 +154,9 @@
   .cta-button {
     @apply px-8 py-4 text-lg rounded-sm cursor-pointer flex items-center justify-center gap-4 hover:gap-8 duration-300;
   }
+  .badge-black {
+    @apply px-4 py-1 text-sm rounded-xs bg-black/20 text-white font-bold w-fit;
+  }
 
 }
 
@@ -164,3 +167,20 @@
   border-color: transparent transparent transparent #55BA63;
   transform: rotate(0deg);
 }
+
+.slated-bg {
+  min-height: 800px;
+  background: linear-gradient(
+    90deg,
+    #5ac85f 0%,
+    #6fd36f 40%,
+    #9be36b 100%
+  );
+  clip-path: polygon(
+    0 0,
+    100% 19%,
+    100% 85%,
+    0 70%
+  );
+}
+

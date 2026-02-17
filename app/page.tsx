@@ -3,6 +3,7 @@ import LandingFeatures from "@/components/elements/landing-features";
 import LandingHero from "@/components/elements/landing-hero";
 import LandingPortfolio from "@/components/elements/landing-portfolio";
 import LandingSession from "@/components/elements/landing-session";
+import LandingTestimonial from "@/components/elements/landing-testimonial";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function Page() {
       <LandingSession />
       <LandingPortfolio />
       <LandingFeatures />
+      <LandingTestimonial />
     </main>
   );
 }
