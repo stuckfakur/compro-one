@@ -1,4 +1,5 @@
 import LandingBenefit from "@/components/elements/landing-benefit";
+import LandingFeatures from "@/components/elements/landing-features";
 import LandingHero from "@/components/elements/landing-hero";
 import LandingPortfolio from "@/components/elements/landing-portfolio";
 import LandingSession from "@/components/elements/landing-session";
@@ -16,6 +17,7 @@ export default function Page() {
       <LandingBenefit />
       <LandingSession />
       <LandingPortfolio />
+      <LandingFeatures />
     </main>
   );
 }
