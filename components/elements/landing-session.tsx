@@ -1,4 +1,4 @@
-import { CircleChevronRight, Earth, MapPlus } from "lucide-react";
+import { ChevronRight, CircleChevronRight, Earth, MapPlus } from "lucide-react";
 import { SpeedIcon } from "../icons/SpeedIcon";
 import { SecurePaymentIcon } from "../icons/SecurePaymentIcon";
 import { GlobePinIcon } from "../icons/GlobePinIcon";
@@ -13,7 +13,7 @@ export default function LandingSession() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua.",
       theme: "text-primary",
       image: "/assets/img-session.png",
-      imageText: "Craete Beautiful Sites in no Time",
+      imageText: "Create Beautiful Sites in no Time",
       imageLink: "#",
       items: [
         {
@@ -64,13 +64,16 @@ export default function LandingSession() {
             }`}
           >
             <div className="flex-1 space-y-2">
-              <div className="relative w-full space-y-8">
-                <div className="aspect-video overflow-hidden rounded-lg">
+              <div className="w-full space-y-8">
+                <div className="group relative aspect-video overflow-hidden rounded-lg">
                   <img
                     className="hover:scale-[110%] duration-300 transition-all"
                     src={d.image}
                     alt="img session"
                   />
+                  <a href={d.imageLink} className="absolute  bottom-2 left-2 flex justify-between items-center py-4 group-hover:w-[calc(100%-2rem)] w-[calc(100%-1rem)] px-4 bg-slate-100 text-slate-700 rounded-lg group-hover:ml-4 duration-300 transition-all">
+                    {d.imageText} <ChevronRight/>
+                  </a>
                 </div>
                 <div className="grid lg:grid-cols-2 gap-2">
                   {d.items.length > 0 &&
