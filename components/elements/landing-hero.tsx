@@ -22,10 +22,10 @@ export default function LandingHero() {
           </p>
           <div className="flex flex-col xl:flex-row xl:items-center justify-start gap-4">
             <button className="bg-blue-600 hover:bg-blue-600/90 text-white cta-button">
-              <Menu /> Our Services
+              <Menu />View  Our Services
             </button>
             <button className="bg-slate-100 hover:bg-slate-100/90 text-slate-800 cta-button">
-              <Phone /> Contact
+              <Phone /> Contact Us
             </button>
           </div>
           <p className="text-slate-200">

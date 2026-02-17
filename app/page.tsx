@@ -1,5 +1,6 @@
 import LandingBenefit from "@/components/elements/landing-benefit";
 import LandingHero from "@/components/elements/landing-hero";
+import LandingSession from "@/components/elements/landing-session";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,6 +13,7 @@ export default function Page() {
     <main className="min-h-[150vh] bg-white">
       <LandingHero />
       <LandingBenefit />
+      <LandingSession />
     </main>
   );
 }
